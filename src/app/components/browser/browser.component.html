@@ -1,0 +1,14 @@
+<app-window>
+  <div class="browser-container">
+    <div class="browser-toolbar">
+      <input
+        [(ngModel)]="urlInput"
+        (keyup.enter)="navigateTo()"
+        placeholder="Enter URL..."
+        class="url-bar"
+      />
+      <p-button (click)="navigateTo()">Go</p-button>
+    </div>
+    <iframe [src]="safeUrl" *ngIf="safeUrl" class="browser-frame"></iframe>
+  </div>
+</app-window>

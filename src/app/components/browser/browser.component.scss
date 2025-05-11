@@ -1,0 +1,28 @@
+.browser-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid var(--p-neutral-200);
+  border-radius: 0 0 4px 4px;
+  overflow: hidden;
+}
+
+.browser-toolbar {
+  display: flex;
+  padding: 8px;
+  background-color: var(--p-neutral-100);
+  border-bottom: 1px solid var(--p-neutral-200);
+}
+
+.url-bar {
+  flex: 1;
+  margin-right: 8px;
+  padding: 4px 8px;
+}
+
+.browser-frame {
+  flex: 1;
+  width: 100%;
+  border: none;
+  min-height: 90vh;
+}

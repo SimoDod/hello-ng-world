@@ -1,0 +1,14 @@
+.window-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 12px;
+    background-color: var(--p-neutral-700);
+    min-height: 2.5vh;
+    padding-right: 12px;
+
+    span {
+        color: var(--p-neutral-100);
+        cursor: pointer;
+    }
+}

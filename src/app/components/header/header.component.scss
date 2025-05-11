@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.5vh;
+  background-color: var(--p-stone-100);
+  padding: 0 8px;
+
+  .left,
+  .center,
+  .right {
+    display: flex;
+    align-items: center;
+  }
+
+  .center {
+    flex: 1;
+    justify-content: center;
+  }
+
+  .left,
+  .right {
+    min-width: 120px;
+  }
+}
